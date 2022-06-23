@@ -5,9 +5,9 @@ name: VUE.js CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 jobs:
   buildAndTest:
     runs-on: ubuntu-latest
