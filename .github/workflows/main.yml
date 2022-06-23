@@ -42,4 +42,4 @@ jobs:
         aws-region: ${{ secrets.AWS_REGION }}
         
     - name: 'Task 2: Upload  to S3 bucket'
-      run: aws s3 cp  dist ${{ secrets.BUCKET_NAME }} --recursive 
+      run: aws s3 cp dist s3://${{ secrets.BUCKET_NAME }} 
