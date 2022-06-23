@@ -31,8 +31,8 @@ jobs:
     - run: pwd dist
     
 #     - name: 'Testing '
-#       run : echo 'testing'
- #     - run : npm run test
+#       run : echo 'testing'.
+#      - run : npm run test
 
     - name: 'Task 1: Connect to AWS '
       uses: aws-actions/configure-aws-credentials@v1
